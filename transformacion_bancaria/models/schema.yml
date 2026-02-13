@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_transacciones
+    description: "Tabla limpia de transacciones bancarias"
+    columns:
+      - name: id_tx
+        description: "Identificador único de la transacción"
+        tests:
+          - unique   # Regla 1: ¡No pueden haber dos IDs iguales!
+          - not_null # Regla 2: ¡No puede estar vacío!
+
+      - name: tarjeta
+        tests:
+          - not_null
+
+      - name: monto
+        tests:
+          - not_null

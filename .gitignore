@@ -1,0 +1,24 @@
+# --- Seguridad (CRÍTICO) ---
+credenciales.json
+*.pem
+.env
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# --- Logs y Datos ---
+logs/
+*.log
+
+# --- Archivos de sistema y ejecutables ---
+.DS_Store
+*.exe
+*.zip

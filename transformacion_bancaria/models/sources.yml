@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: banco_origen
+    database: dataengineerp  # Tu ID de proyecto
+    schema: banco_transacciones
+    tables:
+      - name: raw_transacciones
