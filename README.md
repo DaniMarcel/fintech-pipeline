@@ -4,9 +4,6 @@
 
 Este proyecto simula un ecosistema bancario completo. Genera transacciones financieras sintéticas en tiempo real, las ingesta mediante streaming, protege datos sensibles (PII), valida la calidad de los datos y visualiza KPIs financieros en un dashboard en vivo.
 
-![Architecture Diagram](https://img.shields.io/badge/Architecture-Cloud--Native-blue) 
-*(Aquí podrías poner un pantallazo de tu diagrama si lo haces después)*
-
 ## Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3.11 (Generación de datos & Procesamiento).
@@ -78,3 +75,4 @@ Este proyecto simula un ecosistema bancario completo. Genera transacciones finan
 
 ---
 *Desarrollado por Daniel Marcel - Ingeniero de Datos*#
+
