@@ -54,10 +54,10 @@ try:
         future = publisher.publish(topic_path, mensaje_bytes)
         
         # Log visual para nosotros
-        print(f"💸 Enviando: {transaccion['monto']} en {transaccion['comercio']} (ID: {future.result()})")
+        print(f"Enviando: {transaccion['monto']} en {transaccion['comercio']} (ID: {future.result()})")
         
         # Esperar un poco entre ventas (0.5 a 2 segundos)
         time.sleep(random.uniform(0.5, 2.0))
 
 except KeyboardInterrupt:
-    print("\n🛑 Simulador detenido.")
+    print("\nSimulador detenido.")
