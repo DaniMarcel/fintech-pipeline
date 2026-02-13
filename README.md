@@ -38,7 +38,7 @@ Este proyecto simula un ecosistema bancario completo. Genera transacciones finan
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/fintech-pipeline.git](https://github.com/tu-usuario/fintech-pipeline.git)
+    git clone https://github.com/DaniMarcel/fintech-pipeline.git
     cd fintech-pipeline
     ```
 
@@ -75,4 +75,5 @@ Este proyecto simula un ecosistema bancario completo. Genera transacciones finan
 
 ---
 *Desarrollado por Daniel Marcel - Ingeniero de Datos*#
+
 
