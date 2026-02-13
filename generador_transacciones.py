@@ -17,8 +17,8 @@ publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(PROJECT_ID, TOPIC_ID)
 fake = Faker('es_CL') # Datos falsos chilenos
 
-print(f"🚀 Iniciando simulador de transacciones bancarias...")
-print(f"📡 Enviando a: {topic_path}")
+print(f"Iniciando simulador de transacciones bancarias...")
+print(f"Enviando a: {topic_path}")
 print("Presiona CTRL + C para detener.")
 
 # Comercios y rubros para simular
